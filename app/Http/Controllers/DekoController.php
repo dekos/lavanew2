@@ -15,4 +15,9 @@ class DekoController extends Controller
         //return 'Opa Deko!';
         return  view('deko');
     }
+    public function edit()
+    {
+        return 'edit!';
+        //return  view('deko');
+    }
 }
